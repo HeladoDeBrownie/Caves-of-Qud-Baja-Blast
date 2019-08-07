@@ -9,7 +9,7 @@ using XRL.World.Parts;
 namespace XRL.Liquids
 {
 	[Serializable]
-	internal class LiquidConvalessence : BaseLiquid
+	internal class LiquidBajaBlast : BaseLiquid
 	{
 		//
 		// Static Fields
@@ -27,7 +27,7 @@ namespace XRL.Liquids
 		//
 		// Constructors
 		//
-		public LiquidConvalessence () : base (ID, Name, 350, 200, 2)
+		public LiquidBajaBlast () : base (ID, Name, 350, 200, 2)
 		{
 		}
 
@@ -80,7 +80,7 @@ namespace XRL.Liquids
 
 		public override List<string> GetColors ()
 		{
-			return LiquidConvalessence.Colors;
+			return LiquidBajaBlast.Colors;
 		}
 
 		public override string GetName (LiquidVolume Liquid)
