@@ -6,11 +6,11 @@ using XRL.World;
 using XRL.World.Parts;
 
 namespace XRL.Liquids {
-    [Serializable]
+    [IsLiquid]
     public class LiquidBajaBlast : BaseLiquid {
-        private static BaseLiquid Convalessence = LiquidVolume.ComponentLiquidNameMap["convalessence"];
+        private static BaseLiquid Convalessence = LiquidVolume.getLiquid ("convalessence");
 
-        public LiquidBajaBlast () : base (Convalessence.ID, Convalessence.Name, Convalessence.FlameTemperature, Convalessence.VaporTemperature, Convalessence.Cooling) {}
+        public LiquidBajaBlast () : base (Convalessence.ID, Convalessence.FlameTemperature, Convalessence.VaporTemperature, Convalessence.Cooling) {}
 
         public override void BeforeRender (LiquidVolume Liquid, Event eRender) {
             Convalessence.BeforeRender (Liquid, eRender); }
