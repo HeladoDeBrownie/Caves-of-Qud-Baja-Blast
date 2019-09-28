@@ -1,0 +1,4 @@
+- Convalessence is now called `baja blast`.
+- An object that has had baja blast poured on it is described as `baja`.
+- A mixture in which baja blast is not the primary liquid is described as `baja`.
+- There are no functional changes. Baja blast acts just like convalessence.
