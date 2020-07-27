@@ -1,1 +1,8 @@
-{"workshopId":1798541850,"Title":"Baja Blast","Description":"This purely cosmetic mod “adds” baja blast to the game. (It was already in the game under the name of convalessence.)\n\nOfficial repository: https://github.com/HeladoDeBrownie/Caves-of-Qud-Baja-Blast","Tags":"cosmetic,scripting","Visibility":"2","ImagePath":"preview.png"}
+{
+    "workshopId": 1798541850,
+    "Title": "Baja Blast",
+    "Description": "Baja Blast is a cosmetic Caves of Qud mod that clarifies the truth of convalessence: That it is baja blast.\n\nThe latest release was tested with Caves of Qud version 2.0.201.5.\n\nSee spoilers and more at: https://github.com/HeladoDeBrownie/Caves-of-Qud-Baja-Blast",
+    "Tags": "Cosmetic,Liquid,Script",
+    "Visibility": "2",
+    "ImagePath": "preview.png"
+}
