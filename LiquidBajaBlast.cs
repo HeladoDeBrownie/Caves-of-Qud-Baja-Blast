@@ -20,6 +20,11 @@ namespace XRL.Liquids
             return NAME;
         }
 
+        public override string GetSmearedAdjective(LiquidVolume _)
+        {
+            return ADJECTIVE;
+        }
+
         public override string GetSmearedName(LiquidVolume _)
         {
             return ADJECTIVE;
