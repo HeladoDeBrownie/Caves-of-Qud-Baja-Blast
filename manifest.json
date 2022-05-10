@@ -1,7 +1,9 @@
 {
-  "id": "BajaBlast",
+  "id": "helado_BajaBlast",
   "title": "{{cryogenic|Baja Blast}}",
-  "description": "The preferred drink of Bethesda Susa trolls everywhere.",
-  "version": "1.1.1",
-  "author": "helado",
+  "author": "helado de brownie",
+  "version": "1.1.2",
+  "description": "The preferred drink of Bethesda Susa trolls everywhere",
+  "tags": "Liquid,Script",
+  "previewImage": "preview.png"
 }
